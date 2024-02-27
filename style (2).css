@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bc:#FEFBF1;
+    --mainColor:rgba(112, 52, 18, 1);
+    --footerBc:rgba(8, 73, 53, 1);
+    --footerColor: rgba(255, 255, 255, 0.72);
+
+    --mainFont:"Roboto", sans-serif;
+}
+h1,h2,h3,h4,h5,p,a{
+    color: var(--mainColor);
+    font-family: var(--mainFont);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: var(--bc);
+    max-width: 1200px;
+}
+
+
+
+/* Navigation bar  */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+ul li:first-child{
+    font-weight: bold;  
+}
+
+
+/* Main  section */
+
+.main p{
+    font-size: 11px;
+    width: 160px;
+    height: 44px;
+    margin-left: 73px;
+    margin-top:188px ;
+}
+.main h1{
+    font-size: 80px;
+    width:848px;
+    height:246px;
+    font-weight: 300;
+    margin-left: 73px;
+}
+.main h3{
+    font-size: 32px;
+    width: 571px;
+    height: 125px;
+    margin-left: 72px;
+    margin-top: 123px;
+    font-weight: 400;
+}
+
+
+
+/* Contend seccion */
+.contend{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 194px;
+    justify-content: center;
+}
+.contend div{
+    margin-bottom: 150px;  
+}
+.contend div h3{
+    margin-left:30px;
+    font-size: 24px;
+    font-weight:400 ;
+}
+.contend div p{
+    margin-left:30px;
+    margin-top:11px ;
+    font-size: 12px;
+}
+
+/* .contend div img{
+    border: 1px solid blue;
+    width: 300px;
+    height: 300px;
+} */
+
+
+
+/* footer */
+footer {
+    background-color: var(--footerBc);
+    padding: 113px 70px 20px 70px;
+}
+footer a{
+    font-size: 12px;
+    color: var(--footerColor);
+    text-decoration: none;
+}
+footer h3{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 22px;
+    margin-bottom: 110px;
+    font-weight: 400;
+}
+footer h3 .here{
+    font-size: 30px;
+}
+
+footer .footerGuide{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content:start;
+    margin-bottom: 101px;
+}
+footer .footerGuide div{
+    display:flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+footer p{
+    font-size: 16px;
+    color: var(--footerColor);
+}
+
+
+
+
+
+
+
+
+
+
+
